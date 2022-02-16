@@ -17,7 +17,7 @@ from typing import Optional
 from pint import Quantity
 from tifffile import astype
 
-from pims.cache import cached_property
+from pims.cache.object import cached_property
 from pims.formats import AbstractFormat
 from pims.formats.utils.abstract import CachedDataPath
 from pims.formats.utils.engines.tifffile import TifffileChecker, TifffileParser, cached_tifffile

@@ -14,7 +14,7 @@
 from pathlib import Path
 from typing import Optional
 
-from pims.cache import cached_property
+from pims.cache.object import cached_property
 from pims.formats import AbstractFormat
 from pims.formats.utils.abstract import CachedDataPath
 from pims.formats.utils.checker import AbstractChecker
