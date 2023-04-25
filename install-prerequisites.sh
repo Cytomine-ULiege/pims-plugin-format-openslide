@@ -29,7 +29,7 @@ OPENSLIDE_URL=https://github.com/openslide/openslide/releases/download
 
 dependencies_before_vips() {
   echo "Prerequisites to install before vips for ${PLUGIN_NAME}";
-  apt-get update && apt-get -y install --no-install-recommends --no-install-suggests libopenslide-dev=3.4.1+dfsg-5build1
+  apt-get update && apt-get -y install --no-install-recommends --no-install-suggests libopenslide-dev=3.4.1+dfsg-4
 }
 
 dependencies_before_python() {
